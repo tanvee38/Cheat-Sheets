@@ -1,0 +1,15 @@
+git init (first create a project folder. Git bash there. Then for initializing the project, write the command)
+
+git status
+
+git add filename
+
+git commit -m "message"
+
+git remote add origin github repo path
+
+git push origin master
+
+git pull origin master  (this is for pulling your project from github repo to your project folder)
+
+git clone github repo path   (useful when you clone your project from github repo to any other local computer)
