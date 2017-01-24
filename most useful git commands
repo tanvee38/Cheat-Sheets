@@ -13,3 +13,17 @@ git push origin master (yuo can also use git push -u origin master to remember t
 git pull origin master  (this is for pulling your project from github repo to your project folder)
 
 git clone github repo path   (useful when you clone your project from github repo to any other local computer)
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+Also, learn more from Try git tutorial.
+
+some commands are:
+
+git diff HEAD (To see the changes others made in different project files)
+
+git diff --staged (option to see the changes you just staged.)
+
+Resetting the Stage:
+commnad: git reset filename
