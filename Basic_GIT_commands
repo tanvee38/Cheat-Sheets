@@ -1,0 +1,44 @@
+In your local computer, first install git.
+Create a folder with any name. for example: GIT_basics
+git bash to that folder.
+write command: git init 
+it is for initializing the project. you will see a file named .git
+write command: git status
+this is for checking the status of this project.
+
+now create a file in the GIT_basics folder. you can create with command or just create it in usual way.
+THen write some thing on that file.
+check the status again by writing 'git status'
+
+Then add the file for staging. it needs to be done before committing
+git add filename.txt
+
+now commit the change. commit must be done before pushing it to the github repository. By committing, untracted files gets tracted.
+
+command: git commit -m "first commit"
+
+To upload your project to gitHub repository, write the following command
+
+git remote add origin repository path
+
+for example: git remote add origin https://github.com/tanvee38/hello-world.git
+
+now push your project to gitHub repository.
+
+command: git push origin master
+
+now your project has been uploaded to github repo. Now you can change the file. add more things in the github repo. 
+Now if you want to pull all the updated things to your local folder GIT_basics you have to use pull command.
+
+By pulling, project come from github repo to your local folder where your project first got initialized.
+
+command: git pull origin master
+
+Everything of that project will be pulled.
+
+Now suppose, you are in a different pc and you want to get your project from github repo. Here, you have to clone it.
+for cloning:
+
+write command: git clone github repo path
+
+for example: git clone https://github.com/tanvee38/hello-world.git
