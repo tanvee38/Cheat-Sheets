@@ -8,7 +8,7 @@ git commit -m "message"
 
 git remote add origin github repo path
 
-git push origin master
+git push origin master (yuo can also use git push -u origin master to remember the parameters. by doing this next time you just need to write git push )
 
 git pull origin master  (this is for pulling your project from github repo to your project folder)
 
