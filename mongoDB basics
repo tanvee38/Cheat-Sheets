@@ -1,0 +1,37 @@
+
+Use cmd command prompt. Don’t use git bash for writing mongo command
+First run the mongo DB server by writing mongod on git bash
+Open cmd command promt. Now write mongo.
+It will connect to the server.
+Now write, 
+Show dbs
+It is used to see all the DBs.
+To work with one of this DB, write,
+Use DBname (this command is also used to create a database)
+e.g: use admin
+to see all the collection name of the DB, write:
+show collections
+creating a new collections under a database:
+db.createCollection(“salary”)
+for deleting the current selected database:
+db.dropDatabase()
+to see all the entries of a collection, write the following:
+db.users.find()
+here, collection name is users.
+db.users.insert({"username": "Tanvee","email": "tanvee@uleth.ca", "fullName": "Moin Mahmud Tanvee"})
+
+db.users.find().pretty()
+
+some more commands:
+to drop a collection
+db.collectionname.drop() 
+e.g: db.students.drop()
+
+
+how to import json file to mongodb collection:
+first ctrl + c to exit from mongo command.
+Then run the following command to import data to mongodb collection.
+
+
+command:
+mongoimport  --db admin –collection  users  --type json  --file C:\Users\tanvee\Desktop\jsonFile\additioanalUsers.json  --jsonArray
