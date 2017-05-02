@@ -27,3 +27,21 @@ git diff --staged (option to see the changes you just staged.)
 
 Resetting the Stage:
 commnad: git reset filename
+
+
+
+some useful git commands:
+
+git branch
+To create a git branch :
+
+git checkout -b name_of_the_branch
+
+To see all the branches:
+
+git branch -a
+
+To see the log:
+
+git log
+
