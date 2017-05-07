@@ -41,6 +41,13 @@ after creating new brabch, to switch to that branch or any other branch:
 
 git checkout branch_name
 
+how to clone unmerged branch to local:
+
+git clone branch_link -b branch_name
+
+git clone https://github.com/StetSolutions/glyph-1-front-end.git -b feature/users-add-pagination
+
+
 To see all the branches:
 
 git branch -a
