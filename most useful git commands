@@ -45,6 +45,8 @@ how to clone unmerged branch to local:
 
 git clone branch_link -b branch_name
 
+example:
+
 git clone https://github.com/StetSolutions/glyph-1-front-end.git -b feature/users-add-pagination
 
 
