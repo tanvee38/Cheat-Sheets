@@ -58,3 +58,52 @@ To see the log:
 
 git log
 
+
+some most useful git commands:
+----------------------------------
+
+
+
+If you want to create a branch locally from git repo branch
+
+For example; create a develop branch from github repo develop branch
+
+First see
+
+Git branch -al (you will see all the branch)
+
+Now create:
+
+E.g: git checkout -b develop remotes/origin/develop
+
+
+Moving to another branch
+
+Git checkout branchname
+
+If you want to move to the develop branch
+E.g: git checkout develop 
+
+To see if the branch locally (in your computer is up to date)
+
+Git pull -a
+
+
+
+Once you have an upto date branch (e.g. develop branch) and you want to create a new branch for a new task:
+
+First check you are in hte correct branch
+
+Git branch (it will show all the branch)
+
+If yu are in the correct branch check if it is upto date by
+
+Git pull -a
+
+Lastly create the branch
+
+Git chekcout -b newbranch name
+
+Git checkout -b ‘feature/modify-user’
+
+
