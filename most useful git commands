@@ -111,3 +111,13 @@ Git chekcout -b newbranch name
 Git checkout -b ‘feature/modify-user’
 
 
+Work with a branch which haven't been merged yet with master branch:
+--------------------------------------------------------------------
+
+git remote update (it will show you all the github branches)
+
+Then create a branch locally from the github branch as follows.
+
+example: git checkout -b fix/sort-expression remotes/origin/fix/sort-expression
+
+
