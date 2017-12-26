@@ -1,0 +1,13 @@
+Debounce functions are included in many JavaScript libraries. The goal behind each implementation is to reduce overhead by preventing a function from being called several times in succession. Regardless of the library, all debounce functions are built on JavaScript's native setTimeout function.
+
+If your web app uses JavaScript to accomplish taxing tasks, a debounce function is essential to ensuring a given task doesn't fire so often that it bricks browser performance. For those of you who don't know what a debounce function does, it limits the rate at which a function can fire.
+
+The important thing to note here is that debounce produces a function that is "closed over" the timeout variable. The timeout variable stays accessible during every call of the produced function even after debounce itself has returned, and can change over different calls.
+
+The general idea for debounce is the following:
+
+Start with no timeout.
+If the produced function is called, clear and reset the timeout.
+If the timeout is hit, call the original function.
+
+https://stackoverflow.com/questions/24004791/can-someone-explain-the-debounce-function-in-javascript
