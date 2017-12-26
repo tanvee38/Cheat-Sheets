@@ -1,0 +1,10 @@
+Add project to git repo:
+first create a repo
+
+Then if you have a git project locally : do the following:
+
+you should find this commands in github repository.
+
+git remote add origin https://github.com/StetSolutions/psk2-validator-demo.git
+
+git push -u origin master
