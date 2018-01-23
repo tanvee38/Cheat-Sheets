@@ -1,0 +1,5 @@
+The path meanings:
+
+/ is the root of the current drive;
+./ is the current directory;
+../ is the parent of the current directory.
