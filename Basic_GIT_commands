@@ -5,7 +5,7 @@ In your local computer, first install git.
 Create a folder with any name. for example: GIT_basics
 git bash to that folder.
 
-write command: ```git init``` 
+write command: git init
 it is for initializing the project. you will see a file named .git
 write command: git status
 this is for checking the status of this project.
@@ -16,6 +16,8 @@ check the status again by writing 'git status'
 
 Then add the file for staging. it needs to be done before committing
 git add filename.txt
+
+To add all the files: git add .
 
 now commit the change. commit must be done before pushing it to the github repository. By committing, untracted files gets tracted.
 
