@@ -4,7 +4,8 @@ Good tutorial available here: https://www.youtube.com/watch?v=n9rbX--s9rw
 In your local computer, first install git.
 Create a folder with any name. for example: GIT_basics
 git bash to that folder.
-write command: git init 
+
+write command: ```git init``` 
 it is for initializing the project. you will see a file named .git
 write command: git status
 this is for checking the status of this project.
