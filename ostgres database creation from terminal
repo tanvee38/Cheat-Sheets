@@ -1,0 +1,15 @@
+# Postgres database creation from terminal:
+
+psql for getting postgres in the terminal
+
+## create DB in postgres:
+
+\l for the list
+
+createdb -O postgres simple_test
+
+\q for quit
+
+
+
+
