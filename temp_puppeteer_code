@@ -14,40 +14,44 @@ async function run() {
   const password = await page.evaluateHandle(() => document.querySelector('#login_form').querySelector('#pass'))
 
   await page.evaluate((email) => {
-    email.value = 'moin.mahmud@yahoo.com'
+    email.value = '*********************'
   }, email)
 
   await page.evaluate((password) => {
-    password.value = 'Mahmud2322'
+    password.value = '*******************'
   }, password)
 
-  
-  
   const loginButton = await page.evaluateHandle(() => document.querySelector('#login_form').querySelector('#loginbutton'))
 
   await page.evaluate(loginButton => loginButton.click(), loginButton)
 
-  await page.waitFor(10000)
-
-  // await page.waitForNavigation({waitUntil: 'networkidle0'})
-
+    await page.waitFor(5000)
 
   const events = await page.evaluateHandle(() => document.querySelector('a[title="Events"]'))
 
   await page.evaluate(events => events.click(), events)
 
-  //await page.waitForNavigation({waitUntil: 'networkidle2'})
-
-  await page.waitFor(10000)
+  await page.waitForNavigation({waitUntil: 'networkidle2'})
 
   const birthdays = await page.evaluateHandle(() => document.querySelector('div[data-key="birthdays"]'))
 
-  await page.evaluate(birthdays => birthdays.click(), birthdays)
+  birthdayLink = await page.evaluateHandle((birthdays) => birthdays.children[0], birthdays)
+  await page.evaluate(birthdayLink => birthdayLink.click(), birthdayLink)
 
-  // await page.waitForNavigation({waitUntil: 'networkidle2'})
+  await page.waitForNavigation({waitUntil: 'networkidle2'})
 
+  const birthdayTextareas = await page.evaluateHandle(() => document.querySelectorAll('textarea'))
+  
+  // for now just wishing the first person (birthdayTextareas[0].value)
+  await page.evaluate((birthdayTextareas) => birthdayTextareas[0].value = 'Happy birthday!', birthdayTextareas)
+  
+  await page.evaluate((birthdayTextareas) => birthdayTextareas[0].focus(), birthdayTextareas)
+  
+  await page.keyboard.down(String.fromCharCode(13))
 
-  await page.waitFor(10000)
+  await page.keyboard.up(String.fromCharCode(13))
+  
+  await page.waitFor(1000)
 
   await page.close();
 
