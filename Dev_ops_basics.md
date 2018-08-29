@@ -1,5 +1,5 @@
 
-Creating SSH keys for remotely login to remote server
+## Creating SSH keys for remotely login to remote server
 
 First, open mac terminal
 
@@ -12,9 +12,9 @@ ssh-keygen -t rsa -C "moin@stetsolutions.com"
 3. See keys
 cat ~/.ssh/id_rsa.pub
 
-Basic SH commands: basic SH commands: https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
+### Basic SH commands: basic SH commands: https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 
-Some useful links about deploying node js app in digitalocean server.
+### Some useful links about deploying node js app in digitalocean server.
 
 1. deploy node js app digital ocean: https://code.lengstorf.com/deploy-nodejs-ssl-digitalocean/
 
