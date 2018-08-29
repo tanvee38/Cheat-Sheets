@@ -18,8 +18,6 @@ cat ~/.ssh/id_rsa.pub
 
 1. deploy node js app digital ocean: https://code.lengstorf.com/deploy-nodejs-ssl-digitalocean/
 
-What is PPA (https://www.youtube.com/watch?v=LBXIz6ybt9U)
-
 To know about command: git config --global credential.helper "cache --timeout=3600"
 
 https://help.github.com/articles/caching-your-github-password-in-git/
@@ -164,6 +162,7 @@ https://www.hostgator.com/blog/find-out-who-domain-owner/
 
 https://whois.icann.org/en/lookup?name=
 
+What is PPA (https://www.youtube.com/watch?v=LBXIz6ybt9U)
 
 # nano basics in ubuntu:
 
