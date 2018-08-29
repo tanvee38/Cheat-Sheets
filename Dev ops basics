@@ -1,3 +1,4 @@
+
 Creating SSH keys for remotely login to remote server
 
 First, open mac terminal
@@ -59,9 +60,7 @@ ufw allow 80   => Allow All Incoming HTTP
 
 ufw allow 443 => Allow All Incoming HTTPS
 
-
-web server 
-listen for requests on port 80 and 443 for HTTP and HTTPS connections, respectively. 
+web server listen for requests on port 80 and 443 for HTTP and HTTPS connections, respectively. 
 
 Generate SSL certificate:
 
@@ -97,7 +96,7 @@ Software is available from third-party sources, as well as from the default Ubun
 
 probably linux repository resides : sources.list is in /etc/apt/
 
-what is >> symbol and >& in unix/Linux? [duplicate]
+what is >> symbol and >& in unix/Linux?
 
 > redirects output to a file, overwriting the file.
 >> redirects output to a file appending the redirected output at the end.
@@ -143,19 +142,21 @@ domain subdomain basics: different parts of domain
 
 http://slides.com/jameyhoff/different-parts-of-a-domain-name#/13
 
-
 There are several environment variables:
 
 https://dzone.com/articles/what-you-should-know-about-node-env
 
+Setting environment variable through mac termianl: use export command
+
 export NODE_ENV=development && export SERVER_PORT=80
 
+some of the  node enviroment variables are below.
 NODE_ENV
 SERVER_PORT
 DB_DATABASE
 URL_ORIGIN
 
-to display any environment variable , for example: echo $NODE_ENV
+to display any environment variable on mac terminal, for example: echo $NODE_ENV
 
 how to know domain owner:
 
@@ -164,19 +165,13 @@ https://www.hostgator.com/blog/find-out-who-domain-owner/
 https://whois.icann.org/en/lookup?name=
 
 
-
-From the front end :
-
-curl http://api.oms-staging-2.gldn.com/.well-known/acme-challenge/1234 returns success
-
-
 # nano basics in ubuntu:
 
-open a file with nano = > example: nano /etc/hosts
+1. open a file with nano = > example: nano /etc/hosts
 
-after updating the the file, save it. => control + o
+2. after updating the the file, save it. => control + o
 
-To exit after saving = > control + x
+3. To exit after saving = > control + x
 
 pm2 quick start: http://pm2.keymetrics.io/docs/usage/quick-start/
 
