@@ -1,0 +1,30 @@
+https://github.com/GoogleWebComponents/google-chart/blob/master/google-chart.html
+
+polymer web compoennts google chart: https://www.webcomponents.org/element/GoogleWebComponents/google-chart/elements/google-chart
+
+https://googlewebcomponents.github.io/google-chart/components/google-chart/
+
+https://googlewebcomponents.github.io/google-chart/components/google-chart/
+
+customize tooltip content: https://developers.google.com/chart/interactive/docs/customizing_tooltip_content
+
+https://developers.google.com/chart/interactive/docs/reference
+
+### Example: 
+var data = new google.visualization.DataTable();
+data.addColumn('string', 'Task');
+data.addColumn('number', 'Hours per Day');
+data.addRows([
+  ['Work', 11],
+  ['Eat', 2],
+  ['Commute', 2],
+  ['Watch TV', 2],
+  ['Sleep', {v:7, f:'7.000'}]
+  
+  good link to do more styling in chart:
+  
+  https://developers.google.com/chart/interactive/docs/gallery/columnchart
+  
+  https://jsfiddle.net/api/post/library/pure/
+  
+  https://stackoverflow.com/questions/6724451/how-to-set-tooltips-to-display-percentages-to-match-axis-in-google-visualization
