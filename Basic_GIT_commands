@@ -19,6 +19,8 @@ git add filename.txt
 
 To add all the files: git add .
 
+To remove the added files: git reset
+
 now commit the change. commit must be done before pushing it to the github repository. By committing, untracted files gets tracted.
 
 command: git commit -m "first commit"
