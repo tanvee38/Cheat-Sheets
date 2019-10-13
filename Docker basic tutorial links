@@ -1,0 +1,40 @@
+docker basics:
+
+Very good docker tutorial for learning docker commands: (watch whole series)
+
+
+https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
+
+basic tutorial:
+
+https://www.youtube.com/watch?v=pGYAg7TMmp0&t=0s&list=PLEOJBbtByx0JcTW4_KWvS1lBTAQWh9LxK&index=3
+
+https://medium.com/greedygame-engineering/so-you-want-to-dockerize-your-react-app-64fbbb74c217
+
+https://www.youtube.com/watch?v=qBeUZyjvDwg&list=PL6XT0grm_Tfje2ySztzdhp0HmCjVj5P4z&index=3
+
+
+simple node js app in docker:
+
+https://nodejs.org/de/docs/guides/nodejs-docker-webapp/
+
+how to docarize node js application:
+
+https://buddy.works/guides/how-dockerize-node-application
+
+
+good tutorial:
+
+
+https://www.freecodecamp.org/news/how-to-set-up-continuous-deployment-in-your-home-project-the-easy-way-41b84a467eed/
+
+
+deploy to herokU:
+
+https://medium.com/@justkrup/deploy-a-docker-container-free-on-heroku-5c803d2fdeb1
+
+
+
+docker file ===> docker image ==> docker container
+
+
