@@ -21,6 +21,12 @@ To add all the files: git add .
 
 To remove the added files: git reset
 
+Revert to a previous commit:
+
+git reset --hard <SOME-COMMIT>
+
+https://stackoverflow.com/questions/9529078/how-do-i-use-git-reset-hard-head-to-revert-to-a-previous-commit
+
 now commit the change. commit must be done before pushing it to the github repository. By committing, untracted files gets tracted.
 
 command: git commit -m "first commit"
